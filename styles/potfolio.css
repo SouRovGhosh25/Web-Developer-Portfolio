@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+}
+
+.nav-title {
+    color: rgb(49, 47, 47);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+}
